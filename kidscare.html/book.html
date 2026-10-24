@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <title>Book donation form</title>
+    </head>
+    <body>
+        <h1>Book Donation Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>       
+        <input type="email" id="email" name="email" required><br><br>
+            <label for="bookTitle">Book Title:</label>
+            <input type="text" id="bookTitle" name="bookTitle" required><br><br>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required><br><br>
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre">
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-Fiction</option>
+                <option value="children">Children's</option>
+                <option value="History">History</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label for="condition">Condition:</label>
+            <select id="condition" name="condition"><br><br>
+                <option value="new">New</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="poor">Poor</option>
+            </select><br><br>
+            <label for="dropOffDay">Drop Off Day:</label><br>
+            <select id="dropOffDay" name="dropOffDay">
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+            </select><br><br>
+            <label for="dropOffTime">Drop Off Time:</label><br>
+            <select id="dropOffTime" name="dropOffTime">
+                <option value="morning">Morning (9am - 12pm)</option>
+                <option value="afternoon">Afternoon (12pm - 3pm)</option>
+                <option value="evening">Evening (3pm - 6pm)</option>
+            </select><br><br>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
