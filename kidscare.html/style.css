@@ -1,0 +1,21 @@
+body{
+    background-color:blanchedalmond;
+    background-image:linear-gradient(to bottom,blanchedalmond,rgb(255, 177, 216));
+    background-repeat:no-repeat;
+    background-position:top center;
+    font-family:cursive, sans-serif;
+}
+.page-header{
+    background-image:linear-gradient(to right,rgb(220, 182, 255),lightblue);
+    border-radius:10px;
+    text-align:center;
+    color:rgba(92, 19, 19, 0.687);
+}
+.fact-card{
+    background-color:rgb(209, 152, 171);
+    border-radius:12px;
+    color:rgb(62, 55, 55);
+}
+
+
+
