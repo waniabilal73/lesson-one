@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>my weather page</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       body {
+        background-color: rgba(150, 211, 237, 0.591);
+        background-image: radial-gradient(circle, white 2px,transparent 3px);
+        background-size: 40px 40px;
+        background-repeat: repeat;
+        background-position: top center;
+        background-attachment: fixed;
+        color: rgb(10, 39, 65);
+        text-align: center;
+
+        }
+       h1 {
+        font-size: 35px;
+        color: rgba(28, 60, 88, 0.719);
+
+        }
+        .subtittle{
+            font-size: 16;
+            color: rgb(59, 105, 145);
+        }
+        .weather-card{
+            width: 250px;
+            border: 3px solid rgba(252, 249, 249, 0.76);
+            border-radius: 20px;
+            background-image: linear-gradient(to bottom right,
+            rgba(24, 136, 142, 0.696) );
+        }
+        .weather-icon{
+            font-size: 30px;
+            animation: floatCloud 3s infinite alternate;
+
+        }
+        #temperature{
+            font-size: 48px;
+            font-weight: bold;
+            color: #fffacd;
+
+        }
+        .details{
+            font-size: 18px;
+            color: bisque;
+        }
+        .forecast-section{
+            width: 600px;
+            border: 3px,solid white;
+            border-radius: 15px;
+            background-image: radial-gradient(circle,white,#add8e6);
+            color: rgb(5, 44, 56);
+        }
+        .forecast-tittle{
+            color: rgb(51, 32, 2);
+        }
+        .day{
+            border: 2px solid #add8e6;
+            font-size: 16px; 
+            color: rgb(4, 27, 52);
+        }
+        from{
+            transform: translate(0)
+        }
+        to{
+            transform: translateY(20px);
+        }
+    
+    </style>
+    </head>
+    <body>
+<h1>my weather app home page</h1>
+<p class="subtitle">
+Check today weather and paln your day better.
+</p>
+<div class="weather-card">
+    <h2>todays weather</h2>
+    <div class="weather-icon">cloud</div>
+    <p id="temperature">67°F</p>
+
+    <p class="details">City:Multan</p>
+    <p class="details">Condition:thunder strom</p>
+    <p class="details">Humidity:67%</p>
+    <p class="details">Wind speed:12 km</p>
+</div>
+    <h2>Weekly forecast</h2>
+    <div class="forecast-section">
+        <h3 class="forecast-tittle">Next five days</h3>
+        <p class="day">Monday:Windy</p>
+        <p class="day">Tuesday:sunny</p>
+        <p class="day">Wednesday:stormy</p>
+        <p class="day">Thursday:stormy</p>
+        <p class="day">Friday:rainy</p>
+        
+    </div>
+    </body>
+</html>
