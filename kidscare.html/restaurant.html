@@ -4,13 +4,74 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurant</title>   
+        <title>Restaurant</title>  
+
+        <style>
+
+            body{
+                background-color:blanchedalmond;
+                font-family:cursive,italic;
+            }
+            .menu-card{
+                background-color:mistyrose;
+                width:400px;
+                padding:20px;
+                margin:20px;
+            }
+            .restaurant-name{
+                color:rgb(125, 67, 89);
+                font-size:30px;
+            }
+            .tag-line{
+                color:rgb(125, 67, 89);
+                font-size:20px;
+            }
+            .menu-section{
+                margin-top:20px;
+            }
+            .section-title{
+                color:rgb(125, 67, 89);
+                font-size:25px;
+            }
+            .menu-items{
+                list-style-type:none;
+                padding:0;
+            }
+
+        </style> 
+
+
+
     </head>
     <body>
 
         <div class="menu-card">
-            <h1 class="reataurant-name">Tasty Treat cafe</h1>
-            
+            <h1 class="restaurant-name">Tasty Treat cafe</h1>
+            <p class="tag-line">Good food,Happy Mood!</p>
+
+            <div class="menu-section">
+                <h2 class="section-title">Starters</h2>
+                <ul class="menu-items">
+                    <li class="menu-item">Garlic Bread</li>
+                    <li class="menu-item">Bruschetta</li>
+                    <li class="menu-item">Stuffed Mushrooms</li>
+                    <li class="menu-item">Chicken Wings</li>
+                </ul>
+            </div>
+            <div class ="menu-section">
+                <h2 class="section-title">Main Course</h2>
+                <ul class="menu-items">
+                    <li class="menu-item">Grilled Salmon</li>
+                    <li class="menu-item">Chicken Alfredo</li>
+                    <li class="menu-item">Vegetable Stir Fry</li>
+                    <li class="menu-item">Beef Tacos</li>
+                </ul>
+            </div>
+
+            <p class="special-offer">Weekend Special:20% off!</p>
+
+
+
         </div>
 
 
